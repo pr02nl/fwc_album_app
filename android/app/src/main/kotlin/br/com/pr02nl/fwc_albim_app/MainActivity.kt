@@ -1,4 +1,4 @@
-package br.com.pr02nl.fwc_albim_app
+package br.com.pr02nl.fwc_album_app
 
 import io.flutter.embedding.android.FlutterActivity
 

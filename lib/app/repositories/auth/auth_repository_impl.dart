@@ -1,11 +1,11 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:fwc_albim_app/app/core/exceptions/repository_exception.dart';
-import 'package:fwc_albim_app/app/core/exceptions/unauthorized_exception.dart';
-import 'package:fwc_albim_app/app/core/rest/custom_dio.dart';
-import 'package:fwc_albim_app/app/models/register_user_model.dart';
-import 'package:fwc_albim_app/app/repositories/auth/auth_repository.dart';
+import 'package:fwc_album_app/app/core/exceptions/repository_exception.dart';
+import 'package:fwc_album_app/app/core/exceptions/unauthorized_exception.dart';
+import 'package:fwc_album_app/app/core/rest/custom_dio.dart';
+import 'package:fwc_album_app/app/models/register_user_model.dart';
+import 'package:fwc_album_app/app/repositories/auth/auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final CustomDio dio;

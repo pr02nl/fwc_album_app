@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:fwc_albim_app/app/models/register_user_model.dart';
-import 'package:fwc_albim_app/app/pages/auth/register/presenter/register_presenter.dart';
-import 'package:fwc_albim_app/app/pages/auth/register/view/register_view.dart';
-import 'package:fwc_albim_app/app/repositories/auth/auth_repository.dart';
+import 'package:fwc_album_app/app/models/register_user_model.dart';
+import 'package:fwc_album_app/app/pages/auth/register/presenter/register_presenter.dart';
+import 'package:fwc_album_app/app/pages/auth/register/view/register_view.dart';
+import 'package:fwc_album_app/app/repositories/auth/auth_repository.dart';
 
 class RegisterPresenterImpl implements RegisterPresenter {
   final AuthRepository authRepository;

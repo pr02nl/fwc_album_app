@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:fwc_albim_app/app/core/exceptions/unauthorized_exception.dart';
-import 'package:fwc_albim_app/app/pages/auth/login/presenter/login_presenter.dart';
-import 'package:fwc_albim_app/app/pages/auth/login/view/login_view.dart';
-import 'package:fwc_albim_app/app/services/login/login_service.dart';
+import 'package:fwc_album_app/app/core/exceptions/unauthorized_exception.dart';
+import 'package:fwc_album_app/app/pages/auth/login/presenter/login_presenter.dart';
+import 'package:fwc_album_app/app/pages/auth/login/view/login_view.dart';
+import 'package:fwc_album_app/app/services/login/login_service.dart';
 
 class LoginPresenterImpl implements LoginPresenter {
   final LoginService loginService;

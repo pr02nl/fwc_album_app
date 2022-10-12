@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/text_styles.dart';
-import 'package:fwc_albim_app/app/core/ui/widgets/button.dart';
-import 'package:fwc_albim_app/app/pages/auth/register/presenter/register_presenter.dart';
-import 'package:fwc_albim_app/app/pages/auth/register/view/register_view_impl.dart';
+import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
+import 'package:fwc_album_app/app/core/ui/widgets/button.dart';
+import 'package:fwc_album_app/app/pages/auth/register/presenter/register_presenter.dart';
+import 'package:fwc_album_app/app/pages/auth/register/view/register_view_impl.dart';
 import 'package:validatorless/validatorless.dart';
 
 class RegisterPage extends StatefulWidget {

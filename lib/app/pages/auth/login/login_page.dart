@@ -1,10 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/button_styles.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/colors_app.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/text_styles.dart';
-import 'package:fwc_albim_app/app/core/ui/widgets/button.dart';
-import 'package:fwc_albim_app/app/pages/auth/login/presenter/login_presenter.dart';
+import 'package:fwc_album_app/app/core/ui/styles/button_styles.dart';
+import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
+import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
+import 'package:fwc_album_app/app/core/ui/widgets/button.dart';
+import 'package:fwc_album_app/app/pages/auth/login/presenter/login_presenter.dart';
 import 'package:validatorless/validatorless.dart';
 
 import 'view/login_view_impl.dart';

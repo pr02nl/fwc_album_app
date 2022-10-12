@@ -1,5 +1,5 @@
-import 'package:fwc_albim_app/app/pages/splash/presenter/splash_presenter.dart';
-import 'package:fwc_albim_app/app/pages/splash/view/splash_view.dart';
+import 'package:fwc_album_app/app/pages/splash/presenter/splash_presenter.dart';
+import 'package:fwc_album_app/app/pages/splash/view/splash_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashPresenterImpl implements SplashPresenter {

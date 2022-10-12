@@ -1,5 +1,5 @@
-import 'package:fwc_albim_app/app/repositories/auth/auth_repository.dart';
-import 'package:fwc_albim_app/app/services/login/login_service.dart';
+import 'package:fwc_album_app/app/repositories/auth/auth_repository.dart';
+import 'package:fwc_album_app/app/services/login/login_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginServiceImpl implements LoginService {

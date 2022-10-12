@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fwc_albim_app/app/core/ui/helpers/loader.dart';
-import 'package:fwc_albim_app/app/pages/splash/splash_page.dart';
-import 'package:fwc_albim_app/app/pages/splash/view/splash_view.dart';
+import 'package:fwc_album_app/app/core/ui/helpers/loader.dart';
+import 'package:fwc_album_app/app/pages/splash/splash_page.dart';
+import 'package:fwc_album_app/app/pages/splash/view/splash_view.dart';
 
 abstract class SplashViewImpl extends State<SplashPage>
     with Loader<SplashPage>

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fwc_albim_app/app/core/ui/widgets/button.dart';
+import 'package:fwc_album_app/app/core/ui/widgets/button.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatelessWidget {

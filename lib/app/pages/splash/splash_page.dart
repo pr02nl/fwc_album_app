@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/button_styles.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/colors_app.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/text_styles.dart';
-import 'package:fwc_albim_app/app/core/ui/widgets/button.dart';
-import 'package:fwc_albim_app/app/pages/splash/presenter/splash_presenter.dart';
-import 'package:fwc_albim_app/app/pages/splash/view/splash_view_impl.dart';
+import 'package:fwc_album_app/app/core/ui/styles/button_styles.dart';
+import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
+import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
+import 'package:fwc_album_app/app/core/ui/widgets/button.dart';
+import 'package:fwc_album_app/app/pages/splash/presenter/splash_presenter.dart';
+import 'package:fwc_album_app/app/pages/splash/view/splash_view_impl.dart';
 
 class SplashPage extends StatefulWidget {
   final SplashPresenter presenter;

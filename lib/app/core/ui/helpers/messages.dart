@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:fwc_albim_app/app/core/ui/styles/colors_app.dart';
+import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:top_snackbar_flutter/custom_snack_bar.dart';
 import 'package:top_snackbar_flutter/top_snack_bar.dart';
 

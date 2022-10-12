@@ -1,4 +1,4 @@
-# fwc_albim_app
+# fwc_album_app
 
 A new Flutter project.
 
