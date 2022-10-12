@@ -16,7 +16,10 @@ class ThemeConfig {
       backgroundColor: Colors.white,
       elevation: 0,
       centerTitle: true,
-      titleTextStyle: TextStyles.i.textPrimaryFontBold,
+      titleTextStyle: TextStyles.i.textPrimaryFontBold.copyWith(
+        color: Colors.black,
+        fontSize: 18,
+      ),
       iconTheme: const IconThemeData(
         color: Colors.black,
       ),
