@@ -1,4 +1,4 @@
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_getit/flutter_getit.dart';
 import 'package:fwc_album_app/app/pages/home/home_page.dart';
 import 'package:fwc_album_app/app/pages/home/presenter/home_presenter.dart';
