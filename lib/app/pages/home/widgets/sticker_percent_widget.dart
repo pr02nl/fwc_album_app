@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
@@ -20,11 +22,24 @@ class StickerPercentWidget extends StatelessWidget {
           ),
           child: Center(
             child: Text(
-              "$percent",
+              "$percent%",
               style: context.textStyles.titlePrimaryColor,
             ),
           ),
-        )
+        ),
+        SizedBox(
+          width: 110,
+          height: 110,
+          child: Transform.rotate(
+            angle: -pi / 2.5,
+            child: CircularProgressIndicator(
+              value: percent / 100,
+              color: Colors.white,
+              backgroundColor: Colors.white.withOpacity(0.5),
+              strokeWidth: 5,
+            ),
+          ),
+        ),
       ],
     );
   }
