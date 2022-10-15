@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getit/flutter_getit.dart';
 import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
 import 'package:fwc_album_app/app/models/groups_stickers.dart';
 import 'package:fwc_album_app/app/models/user_sticker_model.dart';
+import 'package:fwc_album_app/app/pages/my_stickers/presenter/my_sticker_presenter.dart';
 
 class StickerGroup extends StatelessWidget {
   final GroupsStickers group;
@@ -65,6 +67,7 @@ class StickerGroup extends StatelessWidget {
                 stickerNumber: stickerNumber,
                 sticker: sticker,
                 countryCode: countryCode,
+                countryName: group.countryName,
               );
               if (statusFilter == "all") {
                 return stickerWidget;
@@ -90,11 +93,13 @@ class Sticker extends StatelessWidget {
   final String stickerNumber;
   final UserStickerModel? sticker;
   final String countryCode;
+  final String countryName;
   const Sticker({
     Key? key,
     required this.stickerNumber,
     this.sticker,
     required this.countryCode,
+    required this.countryName,
   }) : super(key: key);
 
   @override
@@ -135,7 +140,16 @@ class Sticker extends StatelessWidget {
           ],
         ),
       ),
-      onTap: () {},
+      onTap: () async {
+        final presenter = context.get<MyStickerPresenter>();
+        await Navigator.of(context).pushNamed("/sticker-detail", arguments: {
+          "countryCode": countryCode,
+          "stickerNumber": stickerNumber,
+          "countryName": countryName,
+          "stickerUser": sticker,
+        });
+        presenter.refresh();
+      },
     );
   }
 }
